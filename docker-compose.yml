@@ -22,7 +22,7 @@ x-airflow-common:
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - ./.google/credentials/:/.google/credentials:ro
-  user: "1000:0"  # Set to match your Linux UID
+  user: "1001:0"  # Set to match your Linux UID
   depends_on:
     postgres:
       condition: service_healthy
