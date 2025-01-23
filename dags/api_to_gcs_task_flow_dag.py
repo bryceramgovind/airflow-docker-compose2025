@@ -8,7 +8,7 @@ from google.cloud import storage
 
 SOCRATA_DOMAIN = "data.cityofnewyork.us"
 SOCRATA_DATASET_ID = "nc67-uf89" 
-GCS_BUCKET_NAME = "buckey-mcbuckface"
+GCS_BUCKET_NAME = "doesnt-matter"
 GCS_FILE_NAME = "data/api_data.parquet"
 
 # Define the DAG
