@@ -8,7 +8,7 @@ from google.cloud import storage
 # Configuration
 SOCRATA_DOMAIN = "data.cityofnewyork.us"
 SOCRATA_DATASET_ID = "nc67-uf89"  # Example dataset (NYC 311 Service Requests)
-GCS_BUCKET_NAME = "buckey-mcbuckface"
+GCS_BUCKET_NAME = "vf-social-data"
 GCS_FILE_NAME = "data/api_data.parquet"
 
 # Function to download data from the API
